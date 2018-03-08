@@ -26,6 +26,12 @@ PHPUnit 及 Composer的使用本文不做介绍.
   "autoload": {
     "classmap": ["Application","ThinkPHP/Library"]
   },
+  "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/callme119/think-phpunit"
+        }
+    ],
   "require-dev": {
     "snowair/think-phpunit": "dev-master"
   }
